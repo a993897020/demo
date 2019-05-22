@@ -1,0 +1,14 @@
+#header .nav{
+	width: 950px;
+	left: 20px;
+}
+.list li{
+	margin-right: 25px;
+}
+.nav .list{
+	left: 435px;
+}
+.C1_left{left: 50px;}
+#content1 .C1_right{right: -55px;width: 440px;}
+#content2 .C2_right{right: -921px;}
+#footer{left: -355px}

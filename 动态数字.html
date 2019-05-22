@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			#A{ width: 500px;height: 500px;background-color: #FF0000;font-size: 36px;margin: 0 auto;line-height: 500px;text-align: center;}
+		</style>
+		<script>
+			window.onload=function(){
+					var num = 0;
+				
+	     var i=setinterval(function(){
+	     	
+	     	num++
+	     	var span1=document.getElementById('span1');
+	     	span1.innerText=num;
+	     	if(num==100){
+	     		clearInterval(i);
+	     	}
+	     },100)
+				
+			}
+		</script>
+	</head>
+	<body>
+		<div id="span1">
+			
+		</div>
+	</body>
+</html>
