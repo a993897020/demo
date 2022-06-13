@@ -1,23 +1,4 @@
-.side-bar{
-	position: relative;
-	width: 100%;
-	float: none;
-}
-.main{
-	width: 100%;
-	padding-left:10px ;
-	padding-right:10px ;
-	
-}
-.article-list{margin: 0;}
-.side-bar .nav,.side-bar .tag-list{
-	text-align: center;
-	display: none;
-	}
-#menu_cbox:checked ~ .nav,
-#menu_cbox:checked ~ .tag-list{
-	display: block;
-}
-#menu_cbox{display: none;}
-#menu{position: absolute;right: 0;top: 10px;display: block;cursor: pointer;}
-
+#header .nav{left: 200px;}
+#content1 .C1_right{right: 50px;}
+#content2 .C2_right{right: -421px;}
+#footer{left: -90px;}
